@@ -1,0 +1,38 @@
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+ 
+This is a temporary script file.
+"""
+ 
+ 
+import numpy as np
+ 
+import matplotlib.pyplot as plt
+ 
+ 
+import csv
+  
+with open('/Users/emilyburnside/Dropbox/Python/Pyplot heatmap/test/test.csv') as csvfile: #organise your values in spreadsheet columns, save as csv
+    readCSV = csv.reader(csvfile, delimiter=',')
+    a = []
+    b = []
+    for row in readCSV:  
+        a.append(float(row [0])) #where row 0 is excel column A
+        b.append(float(row [1])) #where row 1 is excel column B etc
+  
+print (a, b)
+  
+ 
+  
+# Create heatmap
+heatmap, xedges, yedges = np.histogram2d(a, b, bins=(200,200))
+extent = [xedges[0], xedges[-1], yedges[0], yedges[-1]]
+  
+# Plot heatmap
+plt.clf()
+plt.title('test')
+plt.ylabel('y')
+plt.xlabel('x')
+plt.imshow(heatmap.T, extent=extent, interpolation='bicubic')
+plt.show()
