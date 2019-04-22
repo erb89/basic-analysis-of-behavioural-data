@@ -27,5 +27,6 @@ I usually amend the above syntax to this, for inclusion of correction for multip
  /EMMEANS=TABLES(group) WITH(mean_preop=MEAN)COMPARE ADJ(BONFERRONI) 
   /EMMEANS=TABLES(wave) WITH(mean_preop=MEAN)COMPARE ADJ(BONFERRONI)
 
+I also select post hoc correction via point and click for the normal fixed effect test.
 
-I aim to put relevant syntax in a code file soon for ANCOVA, but you just need to follow Lawrence's protocol , play around with syntax, but most importantly have background knowledge as to the data. You can't jump to SPSS without understanding everything that happens in Prism with ease. You need to understand where stuff comes from before using syntax which goes beyond click n play. 
+I aim to put relevant syntax in a code file soon for ANCOVA, but you just need to follow Lawrence's protocol mainly , play around with syntax (or do point and click and select a multiple comparison, but most importantly have background knowledge as to the data. You can't jump to SPSS without understanding everything that happens in Prism with ease. You need to understand where stuff comes from before using syntax which goes beyond click n play. 
