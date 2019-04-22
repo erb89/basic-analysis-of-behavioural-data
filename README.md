@@ -1,8 +1,8 @@
 # basic-analysis-of-behavioural-data
-Basic templates for behavioural analysis
-See Wiki for documentation. Description references screenshot .doc file "basic-analysis-of-behavioural-data_ERB".
+Basic templates for behavioural analysis.
+See Wiki for documentation. Wiki references screenshot .doc file "basic-analysis-of-behavioural-data_ERB".
 
-ReadMe covers prelim items only, see Wiki. 
+ReadMe covers prelim items only, see Wiki for documentation. 
 
 
 
